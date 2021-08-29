@@ -32,7 +32,7 @@ class PostsController < ApplicationController
     redirect_to root_path
   end
 
-  
+
   private
   def post_params
     params.require(:post).permit(:caption, photos_attributes: [:image]).merge(user_id: current_user.id)

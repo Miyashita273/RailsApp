@@ -58,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'carrierwave', '~> 2.0'
 gem  "mini_magick"
+gem 'pg', group: :production 
+gem 'sqlite3', '~>1.3.6', group: :development
