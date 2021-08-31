@@ -59,4 +59,4 @@ gem 'devise'
 gem 'carrierwave', '~> 2.0'
 gem  "mini_magick"
 gem 'pg', group: :production 
-gem 'sqlite3', '~>1.4', group: :development
+# gem 'sqlite3', '~>1.4', group: :development
